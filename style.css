@@ -1,0 +1,64 @@
+/* 页面整体 */
+body {
+  font-size: 16px; /* 基准字号 */
+  margin: 0;
+  background: #e8e8e0;
+  color: #222;
+  font-family:
+    "Helvetica Neue", Helvetica, Arial,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", "sans-serif";
+}
+
+/* 内容容器 */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #f8f8f8;
+}
+
+/* 标题 */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* 标题 */
+h2 {
+  text-indent: 2em;       /* 首行缩进 */
+  text-align: left;
+}
+
+/* 正文段落 */
+p {
+  text-indent: 2em;       /* 首行缩进 */
+  line-height: 1.6;
+  margin: 1em 0;
+  text-align: justify;
+}
+
+/* 图片 */
+img {
+  display: block;
+  margin: 0.8em auto;
+  max-width: 50%;
+  height: auto;
+}
+
+/* 图片注释文字 */
+figcaption {
+  text-align: center;
+  margin-top: 0;        /* 图片与注释之间留很小空隙 */
+  font-size: 80%;           /* 比正文小 20%*/
+  color: #666;              /* 灰色文字 */
+  line-height: 0;         /* 紧凑行高 */
+  margin-bottom: 2em;
+}
+
+/* 手机优化 */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.2rem 1rem;
+  }
+}
